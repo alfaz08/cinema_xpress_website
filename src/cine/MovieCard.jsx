@@ -1,4 +1,5 @@
 import { getImgUrl } from "../utils/cine-utility";
+import Rating from "./Rating";
 
 export default function MovieCard({movie}){
   
@@ -16,7 +17,7 @@ export default function MovieCard({movie}){
               <p className="text-[#575A6E] text-sm mb-2">{movie.genre}</p>
              
               <div className="flex items-center space-x-1 mb-5">
-               Rating: {movie.rating}
+               <Rating value={movie.rating}></Rating>
               </div>
 
               <a
