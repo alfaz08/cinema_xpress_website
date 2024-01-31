@@ -3,18 +3,21 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
-    ],
+  ],
+  darkMode: 'class',
   theme: {
     extend: {
-      container:{
-        center:true,
-        padding:"1.25rem"
-      }
+      container: {
+        center: true,
+        padding: "1.25rem",
+      },
+      textColor: {
+        'white': '#ffffff',
+      },
     },
-    colors:{
-      primary:"#00D991"
-    }
+    colors: {
+      primary: "#00D991",
+    },
   },
   plugins: [],
-}
-
+};
