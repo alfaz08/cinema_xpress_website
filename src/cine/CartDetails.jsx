@@ -1,4 +1,11 @@
+
+
 export default function CardDetails({onChange}){
+
+
+  
+
+
     return (
         <div>
           <div
